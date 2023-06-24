@@ -1,0 +1,182 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+header {
+  position: fixed;;
+  top: 0;
+  min-height: 90px;
+  padding: 5px 50%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #8b0000;
+}
+
+body {
+background-color: #eee;
+font-family: 'Arial', sans-serif;
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+li {
+list-style: none;
+}
+
+a {
+color: #eee;
+text-decoration: none;
+font-size: 2.2rem;
+padding: 2rem;
+}
+
+
+
+@media (max-width: 600px) {
+header {
+  flex-wrap: wrap;
+}
+}
+
+nav {
+font-weight: 400;
+font-size: 30px;
+margin-left: 45px;
+}
+
+nav > ul {
+  width: 35vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+ul {
+  display: block;
+  list-style-type: disc;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 40px;
+}
+#welcome-section{
+  margin-bottom: 80px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  background-color: #000;
+  background-image: url('images/css.png');
+  background-repeat: no-repeat;
+}
+h1,p{
+  text-align: center;
+  line-height: 50px;
+  justify-content: center;
+
+}
+
+p{
+  color: #8b0000;
+  font-size: 45px;
+}
+h1{
+  color: #eee; 
+  font-size: 50px;
+
+}
+
+h3{
+  color: #000; 
+  font-size: 50px;
+  text-align: center;
+  line-height: 25px;
+  justify-content: center;
+  display: grid;
+}
+
+h2{
+  color: #000; 
+  font-size: 24px;
+  text-align: center;
+  line-height: 50px;
+  justify-content: center;
+  background-color: #cacaca;
+}
+h4 {
+  color: #000; 
+  font-size: 30px;
+  text-align: center;
+  line-height: 25px;
+  justify-content: center;
+  display: grid;
+}
+img{
+  width: 250px;
+  object-fit: cover;
+  height:150x; 
+  margin-left: 500px;
+  flex-direction: column;
+  justify-content: center;
+  display: grid;
+  align-items: center;
+}
+
+.perfilGit{
+  width: 15px;
+}
+
+h2:hover, a:hover {
+  background-color: white;
+}
+
+.img-fluid{
+  max-width:650px;
+  max-height:500px;
+  margin-top: 0px;
+  margin-left: 350px;
+  align-items: center;
+  width: auto;
+  height: auto;
+  mix-blend-mode: multiply;
+}
